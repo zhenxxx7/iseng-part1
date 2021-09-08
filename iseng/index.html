@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href='icon/favicon.ico' rel='shortcut icon'>
+	<title>JORDAYYY</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="image">
+
+	</div>
+	<div class="title-op">
+		<h1>YOU HAS BEEN HACKED</h1>
+	</div>
+	<div class="title-op2">
+		<h1>DON'T PANIC WE JUST TEST UR SAFETY</h1>
+	</div>
+
+	<div class="animasi-teks">Hallo, selamat datang.....</div>
+
+
+
+	<div id="text">
+
+	</div>
+
+	<script type="text/javascript">
+		var i = 0,
+			text;
+		text = "Hacked By Orang Luar aowkaoka"
+
+		function typing() {
+			if (i < text.length) {
+				document.getElementById("text").innerHTML += text.charAt(i);
+				i++;
+				setTimeout(typing, 80);
+			}
+		}
+		typing();
+	</script>
+
+
+
+
+
+
+
+</body>
+
+</html>
